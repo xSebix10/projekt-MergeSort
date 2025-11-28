@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/Sebastian/Desktop/projekt3/projekt-MergeSort/build/MergeSortTests[1]_tests.cmake")
+  include("C:/Users/Sebastian/Desktop/projekt3/projekt-MergeSort/build/MergeSortTests[1]_tests.cmake")
+else()
+  add_test(MergeSortTests_NOT_BUILT MergeSortTests_NOT_BUILT)
+endif()
