@@ -1,6 +1,4 @@
-# builded file
-main
-/docs/
-
-# vs-code
-/.vscode/
+build/
+.vscode/
+*.exe
+*.obj
